@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 2017 年 6 朁E06 日 08:41
+-- Generation Time: 2017 年 6 朁E08 日 18:25
 -- サーバのバージョン： 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -23,45 +23,34 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- テーブルの構造 `tweets`
+-- テーブルの構造 `don`
 --
 
-CREATE TABLE `tweets` (
+CREATE TABLE `don` (
   `id` int(11) NOT NULL,
-  `body` varchar(140) DEFAULT NULL,
-  `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `image` longblob,
-  `mime` varchar(30) DEFAULT NULL
+  `name` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- テーブルのデータのダンプ `tweets`
+-- テーブルのデータのダンプ `don`
 --
 
-INSERT INTO `tweets` (`id`, `body`, `time`, `image`, `mime`) VALUES
-(1, 'hello, world', '2017-06-06 06:24:45', NULL, NULL),
-(2, 'こんにちは', '2017-06-06 06:24:45', NULL, NULL),
-(3, 'こんばんは', '2017-06-06 06:40:32', NULL, NULL),
+INSERT INTO `don` (`id`, `name`) VALUES
+(1, 'aaa'),
+(2, 'bbb'),
+(3, 'ccc'),
+(4, 'ddd');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `tweets`
+-- Indexes for table `don`
 --
-ALTER TABLE `tweets`
+ALTER TABLE `don`
   ADD PRIMARY KEY (`id`);
 
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `tweets`
---
-ALTER TABLE `tweets`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -1,11 +1,15 @@
 <?php
-require_once 'database_conf.php';
-require_once 'h.php';
+$dbServer = '127.0.0.1';
+$dbUser = $_SERVER['MYSQL_USER'];
+$dbPass = $_SERVER['MYSQL_PASSWORD'];
+$dbName = $_SERVER['MYSQL_DB'];;
+# MySQL用のDSN文字列です。
+$dsn = "mysql:host={$dbServer};dbname={$dbName};charset=utf8";
 
 //データベースへの接続
 $db = new PDO($dsn, $dbUser, $dbPass);
 //検索実行
-$sql = 'SELECT * FROM don';
+$sql = 'SELECT * FROM app';
 $prepare = $db->prepare($sql);
 $prepare->execute();
 $result = $prepare->fetchAll(PDO::FETCH_ASSOC);
@@ -14,6 +18,10 @@ foreach ($result as $person) {
   echo $person['id'];
   echo ' ';
   echo $person['name'];//手抜き
+  echo "<br/>";
+  echo $person['mail'];//手抜き
+  echo "<br/>";
+  echo $person['pass'];//手抜き
   echo "<br/>";
 }
 ?>

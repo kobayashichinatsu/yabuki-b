@@ -1,3 +1,48 @@
+input[type=text] {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size:20px; 
+}
+
+input[type=password] {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size:20px; 
+}
+
+input[type=submit] {
+    width:150px;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 5px;
+    color:#fff;
+    background-color:#49a9d4;
+    border-radius:30px;
+}
+
+input[type=reset] {
+    width:100px;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 5px;
+    color:#fff;
+    background-color:#DC143C;
+    border-radius:30px;
+}
+
+input[type=button] {
+    width:150px;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 5px;
+    color:#fff;
+    background-color:#49a9d4;
+    border-radius:30px;
+}
+
 button.button1 {
     width:200px;
     font-size:30px;

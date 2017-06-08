@@ -5,7 +5,7 @@ require_once 'h.php';
 //データベースへの接続
 $db = new PDO($dsn, $dbUser, $dbPass);
 //検索実行
-$sql = 'SELECT * FROM tweets';
+$sql = 'SELECT * FROM don';
 $prepare = $db->prepare($sql);
 $prepare->execute();
 $result = $prepare->fetchAll(PDO::FETCH_ASSOC);

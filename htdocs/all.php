@@ -13,7 +13,7 @@ $result = $prepare->fetchAll(PDO::FETCH_ASSOC);
 foreach ($result as $person) {
   echo $person['id'];
   echo ' ';
-  echo $person['body'];//手抜き
+  echo $person['name'];//手抜き
   echo "<br/>";
 }
 ?>

@@ -31,6 +31,10 @@ p {
 font-weight:bold;
 }
 
+a {
+font-weight:bold;
+}
+
 .menu-box {
 border: 2px solid blue;
 background:#FFFFFF;

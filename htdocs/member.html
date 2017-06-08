@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>ログイン画面</title>
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="decorate.css">
  </head>
 
  <body>

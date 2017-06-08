@@ -5,6 +5,7 @@
   <meta http-equiv="refresh" content="3;URL=top.html">
   <title>ログイン画面</title>
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="decorate.css">
  </head>
 
  <body>

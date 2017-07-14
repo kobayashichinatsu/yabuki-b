@@ -4,7 +4,7 @@ margin-top: 0px;
 margin-bottom: 0px;
 margin-left: 0px;
 margin-right: 0px;
-background-image: url("tillt.png")
+background-image: url("http://lohas.nicoseiga.jp/thumb/2793090i?")
 }
 
 img {
@@ -15,23 +15,35 @@ display:block;
 
 .container {
 margin: 0px auto;
-max-width: 960px;
-background-image: url("pop1.png")
+max-width: 800px;
+background: #fff
 }
+
+a:link       {color:#DC143C;text-decoration:none;}
+a:visited    {color:#DC143C;text-decoration:none;}
+a:hover      {color:#DC143C;text-decoration:none;}
+a:active     {color:#DC143C;text-decoration:none;}
 
 h1 {
 font-size: 32px;
 }
 
 h2 {
-font-size: 70px;
+font-size: 50px;
+font-family: 'MS UI Gothic','a?’a?ca?Ra??e§’a?´a?・a??a?￣','Hiragino Sans',sans-serif;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
 }
 
-p {
+h3{
+font-size: 50px;
+}
+
+.log {
 font-weight:bold;
 }
 
-a {
+.back {
 font-size: 30px;
 font-weight:bold;
 }
